@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>12</LangVersion>
+    <AssemblyName>NeonBreach</AssemblyName>
+    <RootNamespace>NeonBreach</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Raylib-cs" Version="8.1.0" />
+    <None Update="Assets/**/*.wav" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>
